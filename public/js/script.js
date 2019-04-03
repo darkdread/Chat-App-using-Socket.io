@@ -182,4 +182,8 @@ $(() => {
     
     // displays on the screen which user joined the chat room
     showWhichUserJoin();
+
+    var audio = new Audio("/media/chat_receive_msg.mp3");
+    audio.volume = 0.01;
+    audio.play();
 });
